@@ -1,0 +1,29 @@
+{
+  "name": "hindsight-sandbox",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open-source App Router sandbox for orchestrating agent-memory apps — inspired by Hindsight (vectorize.io). Memory, Prompt Engineering, Context Tuning, Continuous Learning apps with node-graph orchestration, Tier-1 dashboards and benchmarks.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5"
+  }
+}
